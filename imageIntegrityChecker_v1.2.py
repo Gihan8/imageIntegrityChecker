@@ -86,7 +86,7 @@ def check_cr2_files(directory):
 # Initialize logging
 setup_logging()
 
-# directory = '/raid/deimos_1/1-WORK-IN-PROGRESS/AMD3732-AM-Indochina-MOD-2/AMD3732-010-RAW/AMD3732-050-PROCESSED'
+# directory = '/xxx/xxxx/xxxxx/'
 # check_cr2_files(directory)
 
 message   =  "***  File Validator Script  ***"
@@ -94,7 +94,7 @@ print(message)
 print("")
 print("")
 print("Example format for Windows Machine:      E:\Search\wetransfer\corruptions")
-print("Example format for Linux\ MAC Machines:  /home/max/wetransfer/corruptions")
+print("Example format for Linux\ MAC Machines:  /home/xxx/wetransfer/corruptions")
 print("")
 directory =  input("Enter the Directory Path: ")
 check_cr2_files(directory)
