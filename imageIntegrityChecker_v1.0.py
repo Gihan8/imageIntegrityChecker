@@ -85,13 +85,13 @@ def check_cr2_files(directory):
 setup_logging()
 
 # Replace '/path/to/your/directory' with the path to the directory containing your CR2 files
-## check_cr2_files('/home/max/wetransfer/corruptions')
+## check_cr2_files('/home/xxx/wetransfer/corruptions')
 message   =  "***  File Validator Script  ***"
 print(message)
 print("")
 print("")
 print("Example format for Windows Machine:      E:\Search\wetransfer\corruptions")
-print("Example format for Linux\ MAC Machines:  /home/max/wetransfer/corruptions")
+print("Example format for Linux\ MAC Machines:  /home/xxx/wetransfer/corruptions")
 print("")
 directory =  input("Enter the Directory Path: ")
 check_cr2_files(directory)
